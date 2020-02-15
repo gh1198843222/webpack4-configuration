@@ -4,10 +4,15 @@
   "description": "webpack 4 configuration setup",
   "main": "app.js",
   "scripts": {
-    "develop": "webpack-dev-server --config webpack.dev.js",
+    "dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
-  "keywords": ["webpack", "scss", "hotreload", "dev-server"],
+  "keywords": [
+    "webpack",
+    "scss",
+    "hotreload",
+    "dev-server"
+  ],
   "author": "techyaura",
   "license": "MIT",
   "devDependencies": {
@@ -26,5 +31,8 @@
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.1",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
   }
 }

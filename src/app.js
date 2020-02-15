@@ -1,3 +1,5 @@
+// const common = require('../lib/common.js')
+
 /**'
  * When Hot Module Replacement is enabled, 
  * module.hot is set to true for development and false for production, 
@@ -26,3 +28,5 @@ button.onclick = () => {
         lazyModule.init()
     })
 }
+console.log($('.webpack-demo'))
+common()
